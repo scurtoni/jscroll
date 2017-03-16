@@ -29,7 +29,7 @@ module.exports = function(grunt) {
                 }
             },
             files: {
-                src: ['Gruntfile.js', 'jquery.jscroll.js']
+                src: ['Gruntfile.js', 'jquery.omscroll.js']
             }
         },
 
@@ -42,8 +42,8 @@ module.exports = function(grunt) {
             },
             jscroll: {
                 files: {
-                    'jquery.jscroll.min.js': [
-                        'jquery.jscroll.js'
+                    'jquery.omscroll.min.js': [
+                        'jquery.omscroll.js'
                     ]
                 }
             }
