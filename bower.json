@@ -1,18 +1,17 @@
 {
-  "name": "jscroll",
-  "homepage": "http://jscroll.com",
+  "name": "omscroll",
+  "homepage": "",
   "authors": [
     {
-      "name": "Philip Klauzinski",
-      "homepage": "http://webtopian.com"
+      "name": "Stefano Curtoni",
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pklauzinski/jscroll"
+    "url": "https://github.com/scurtoni/omscroll"
   },
-  "description": "jScroll - jQuery Plugin for Infinite Scrolling / Auto-Paging",
-  "main": "jquery.jscroll.js",
+  "description": "omScroll - jQuery Plugin for Infinite Scrolling / Auto-Paging based on jscroll",
+  "main": "jquery.omscroll.js",
   "dependencies": {
     "jquery": ">=1.4.3"
   },
