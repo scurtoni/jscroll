@@ -36,6 +36,7 @@ $('.jscroll').jscroll({
     padding: 20,
     nextSelector: 'a.jscroll-next:last',
     contentSelector: 'li'
+    wrapperClass: 'clearfix'
 });
 ```
 
@@ -51,6 +52,7 @@ $('.jscroll').jscroll({
 * `contentSelector ('')` - A convenience selector for loading only part of the content in the response for the next set of content. This selector will be ignored if left blank and will apply the entire response to the DOM.
 * `pagingSelector ('')` - Optionally define a selector for your paging controls so that they will be hidden, instead of just hiding the next page link.
 * `callback (false)` - Optionally define a callback function to be called after a set of content has been loaded.
+* `wrapClass ('')` - Optionally define one o more class to append at wrapper div.
 
 For more information on the `contentSelector` option and how it loads a response fragment, see the [jQuery documentation for the .load() method](http://api.jquery.com/load/).
 

@@ -26,7 +26,7 @@
             contentSelector: '',
             pagingSelector: '',
             callback: false,
-            wrapClass: 'clearfix'
+            wrapperClass: 'clearfix'
         }
     };
 
@@ -56,7 +56,7 @@
             // Wrap inner content, if it isn't already
             _wrapInnerContent = function() {
                 if (!$e.find('.jscroll-inner').length) {
-                    $e.contents().wrapAll('<div class="jscroll-inner ' + _options.wrapClass + '" />');
+                    $e.contents().wrapAll('<div class="jscroll-inner ' + _options.wrapperClass + '" />');
                 }
             },
 

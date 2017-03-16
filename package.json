@@ -1,8 +1,8 @@
 {
   "name": "jscroll",
-  "version": "2.3.7",
+  "version": "0.1",
   "description": "jQuery plugin for infinite scrolling / auto-paging based on jscroll ",
-  "main": "jquery.jscroll.js",
+  "main": "jquery.omscroll.js",
   "scripts": {
     "test": "grunt jshint",
     "build": "grunt uglify"
@@ -23,14 +23,10 @@
     "ecosystem:jquery"
   ],
   "author": {
-    "name": "Philip Klauzinski",
-    "url": "http://webtopian.com"
+    "name": "Syefano Curtoni",
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pklauzinski/jscroll/issues"
-  },
-  "homepage": "http://jscroll.com",
+  "homepage": "https://github.com/scurtoni/jscroll",
   "dependencies": {
     "jquery": "^1.7.4"
   },
