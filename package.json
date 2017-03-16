@@ -1,5 +1,5 @@
 {
-  "name": "jscroll",
+  "name": "omscroll",
   "version": "0.1",
   "description": "jQuery plugin for infinite scrolling / auto-paging based on jscroll ",
   "main": "jquery.omscroll.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scurtoni/jscroll.git"
+    "url": "https://github.com/scurtoni/omscroll.git"
   },
   "keywords": [
     "jscroll",
@@ -26,7 +26,7 @@
     "name": "Syefano Curtoni"
   },
   "license": "MIT",
-  "homepage": "https://github.com/scurtoni/jscroll",
+  "homepage": "https://github.com/scurtoni/omscroll",
   "dependencies": {
     "jquery": "^1.7.4"
   },
